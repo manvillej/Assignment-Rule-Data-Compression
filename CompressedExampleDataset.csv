@@ -20,7 +20,7 @@ Operations,France,Lyon,309 1st Avenue,default,Group 108
 Operations,France,Lyon,73 Hamilton Road,default,Group 108
 Operations,Germany,Biberach An Der Riss,default,default,Group 108
 Operations,Germany,Ingelheim,default,default,Group 108
-Operations,Trinidad,Port of Spain,default,default,Group 108
+Operations,Trinidad,Misc,default,default,Group 266
 Operations,Guatemala,Guatemala City,214 Hilltop Road,Branch 6,Group 106
 Operations,Hungary,Csanyikvolgy,default,default,Group 160
 Operations,Hungary,Veresegyhaz,default,default,Group 161
@@ -37,11 +37,12 @@ Operations,Netherlands,Lelystad,default,default,Group 178
 Operations,Netherlands,Naarden,default,default,Group 4
 Operations,Netherlands,Velserbroek,default,default,Group 178
 Operations,Spain,Barcelona,584 Spruce Avenue,default,Group 105
-Operations,Spain,Barcelona,536 Hawthorne Avenue,default,Group 98
-Operations,Spain,Barcelona,709 Forest Drive,default,Group 98
-Operations,Spain,Barcelona,758 Cleveland Street,default,Group 98
+Operations,Spain,Barcelona,462 Pheasant Run,default,Group 102
+Operations,Spain,Barcelona,579 Manor Drive,default,Group 102
+Operations,Spain,Barcelona,341 Williams Street,default,Group 102
 Operations,Spain,Madrid,16 Route 9,Branch 8,Group 98
 Operations,Spain,Madrid,16 Route 9,default,Group 105
+Operations,Spain,Barcelona,default,default,Group 98
 Operations,Spain,Leganes,default,default,Group 98
 Operations,Switzerland,Vernier,728 Hillcrest Drive,default,Group 105
 Operations,UK,Haverhill,default,default,Group 4
@@ -68,7 +69,6 @@ Operations,Ecuador,default,default,default,Group 266
 Operations,France,default,default,default,Group 105
 Operations,Germany,default,default,default,Group 105
 Operations,Greece,default,default,default,Group 105
-Operations,Trinidad,default,default,default,Group 266
 Operations,Guatemala,default,default,default,Group 5
 Operations,Nicaragua,default,default,default,Group 266
 Operations,Hong Kong,default,default,default,Misc Group
@@ -116,19 +116,19 @@ IT Resources,Belgium,Geel,default,default,Group 103
 IT Resources,Belgium,Winkelomheide,default,default,Group 103
 IT Resources,Belgium,Zaventem,default,default,Group 264
 IT Resources,Brazil,Campinas,620 Willow Lane,default,Group 54
-IT Resources,Brazil,Sao Paulo,618 4th Avenue,default,Group 58
+IT Resources,Brazil,Sao Paulo,127 Orchard Avenue,default,Group 60
 IT Resources,Brazil,Brasilia,default,default,Group 50
-IT Resources,Brazil,Brazil,default,default,Group 58
+IT Resources,Brazil,Campinas,default,default,Group 53
 IT Resources,Brazil,Guarulhos,default,default,Group 56
 IT Resources,Brazil,Paulinia,default,default,Group 62
 IT Resources,Brazil,Rio De Janeiro,default,default,Group 64
-IT Resources,Brazil,Sao Paulo,default,default,Group 60
 IT Resources,Brazil,Suzano,default,default,Group 66
 IT Resources,Canada,Laval,default,default,Group 68
 IT Resources,Canada,Mississauga,default,default,Group 70
 IT Resources,Canada,Montreal,default,default,Group 264
 IT Resources,China,Guangzhou,113 Route 5,Branch 1,Group 12
-IT Resources,China,Shanghai,733 Magnolia Court,Branch 8,Group 28
+IT Resources,China,Shanghai,733 Magnolia Court,Branch 1,Group 29
+IT Resources,China,Shanghai,733 Magnolia Court,default,Group 28
 IT Resources,China,Beijing,default,default,Group 12
 IT Resources,China,Chengdu,default,default,Group 14
 IT Resources,China,Dalian,default,default,Group 36
@@ -150,12 +150,11 @@ IT Resources,Colombia,Barranquilla,default,default,Group 75
 IT Resources,Colombia,Cali,default,default,Group 81
 IT Resources,Colombia,Medellin,default,default,Group 83
 IT Resources,Colombia,Villa Rica,default,default,Group 85
-IT Resources,Czech Republic,Prague,507 Bridge Street,default,Group 86
+IT Resources,Czech Republic,Prague,573 Bridge Street,default,Group 89
+IT Resources,Czech Republic,Prague,723 Magnolia Court,default,Group 89
 IT Resources,Czech Republic,Prague,295 York Street,default,Group 88
-IT Resources,Czech Republic,Prague,229 Jefferson Avenue,default,Group 86
-IT Resources,Czech Republic,Czech Republic,default,default,Group 86
 IT Resources,France,France,444 Evergreen Lane,default,Group 148
-IT Resources,France,Lyon,202 Ridge Street,Branch 6,Group 130
+IT Resources,France,Lyon,202 Ridge Street,Branch 5,Group 132
 IT Resources,France,Lyon,400 Church Road,default,Group 114
 IT Resources,France,Lyon,292 2nd Street East,default,Group 114
 IT Resources,France,Lyon,61 Jefferson Street,default,Group 114
@@ -163,7 +162,7 @@ IT Resources,France,Lyon,310 Homestead Drive,default,Group 114
 IT Resources,France,Lyon,38 Elm Street,default,Group 264
 IT Resources,France,Lyon,309 1st Avenue,default,Group 264
 IT Resources,France,Lyon,73 Hamilton Road,default,Group 264
-IT Resources,France,Lyon,202 Ridge Street,default,Group 132
+IT Resources,France,Lyon,202 Ridge Street,default,Group 130
 IT Resources,France,Lyon,548 Hillside Avenue,default,Group 132
 IT Resources,France,Lyon,387 Water Street,default,Group 132
 IT Resources,France,Lyon,699 Highland Avenue,default,Group 132
@@ -299,8 +298,7 @@ IT Resources,USA,Madison,770 Orange Street,Branch 3,Group 211
 IT Resources,USA,Madison,770 Orange Street,default,Group 264
 IT Resources,USA,Malvern,716 North Avenue,default,Group 223
 IT Resources,USA,Malvern,546 Route 2,default,Group 223
-IT Resources,USA,Rockville,428 Sycamore Lane,Branch 4,Group 243
-IT Resources,USA,Rockville,428 Sycamore Lane,default,Group 6
+IT Resources,USA,Rockville,428 Sycamore Lane,Branch 1,Group 6
 IT Resources,USA,Misc,282 Maple Street,default,Group 265
 IT Resources,USA,Misc,159 Country Lane,default,Group 265
 IT Resources,USA,Westborough,309 Monroe Drive,default,Group 261
@@ -346,10 +344,10 @@ IT Resources,USA,Worthington,default,default,Group 263
 IT Resources,Argentina,default,default,default,Group 45
 IT Resources,Austria,default,default,default,Group 1
 IT Resources,Belgium,default,default,default,Group 48
-IT Resources,Brazil,default,default,default,Group 53
+IT Resources,Brazil,default,default,default,Group 58
 IT Resources,Canada,default,default,default,Group 73
 IT Resources,Colombia,default,default,default,Group 79
-IT Resources,Czech Republic,default,default,default,Group 89
+IT Resources,Czech Republic,default,default,default,Group 86
 IT Resources,Dominican Republic,default,default,default,Group 2
 IT Resources,France,default,default,default,Group 120
 IT Resources,Germany,default,default,default,Group 94
@@ -383,17 +381,18 @@ IT Support,Belgium,Zaventem,default,default,Group 264
 IT Support,Brazil,Campinas,620 Willow Lane,default,Group 51
 IT Support,Brazil,Sao Paulo,618 4th Avenue,default,Group 57
 IT Support,Brazil,Brasilia,default,default,Group 49
+IT Support,Brazil,Brazil,default,default,Group 57
 IT Support,Brazil,Campinas,default,default,Group 52
 IT Support,Brazil,Guarulhos,default,default,Group 55
 IT Support,Brazil,Paulinia,default,default,Group 61
 IT Support,Brazil,Rio De Janeiro,default,default,Group 63
 IT Support,Brazil,Sao Paulo,default,default,Group 59
-IT Support,Brazil,Suzano,default,default,Group 65
 IT Support,Canada,Laval,default,default,Group 67
 IT Support,Canada,Mississauga,default,default,Group 69
 IT Support,Canada,Montreal,default,default,Group 264
 IT Support,China,Guangzhou,113 Route 5,Branch 1,Group 12
-IT Support,China,Shanghai,733 Magnolia Court,Branch 8,Group 28
+IT Support,China,Shanghai,733 Magnolia Court,Branch 1,Group 29
+IT Support,China,Shanghai,733 Magnolia Court,default,Group 28
 IT Support,China,Beijing,default,default,Group 12
 IT Support,China,Chengdu,default,default,Group 14
 IT Support,China,Dalian,default,default,Group 36
@@ -415,10 +414,9 @@ IT Support,Colombia,Barranquilla,default,default,Group 74
 IT Support,Colombia,Cali,default,default,Group 80
 IT Support,Colombia,Medellin,default,default,Group 82
 IT Support,Colombia,Villa Rica,default,default,Group 84
-IT Support,Czech Republic,Prague,507 Bridge Street,default,Group 86
+IT Support,Czech Republic,Prague,573 Bridge Street,default,Group 89
+IT Support,Czech Republic,Prague,723 Magnolia Court,default,Group 89
 IT Support,Czech Republic,Prague,295 York Street,default,Group 87
-IT Support,Czech Republic,Prague,229 Jefferson Avenue,default,Group 86
-IT Support,Czech Republic,Czech Republic,default,default,Group 86
 IT Support,France,France,444 Evergreen Lane,default,Group 147
 IT Support,France,Lyon,202 Ridge Street,Branch 6,Group 129
 IT Support,France,Lyon,400 Church Road,default,Group 113
@@ -537,9 +535,9 @@ IT Support,Papua New Guinea,Puchong,default,default,Group 35
 IT Support,Mexico,Mexico City,788 Jefferson Street,default,Group 172
 IT Support,Mexico,Mexico City,574 Smith Street,default,Group 172
 IT Support,Mexico,Mexico City,216 Inverness Drive,default,Group 5
-IT Support,Mexico,Guadalajara,default,default,Group 174
+IT Support,Mexico,Mexico City,default,default,Group 176
 IT Support,Mexico,Ocoyoacac,default,default,Group 172
-IT Support,Mexico,Queretaro,default,default,Group 174
+IT Support,Mexico,Misc,default,default,Group 176
 IT Support,Netherlands,Gouda,default,default,Group 179
 IT Support,Netherlands,Lelystad,default,default,Group 178
 IT Support,Netherlands,Naarden,default,default,Group 181
@@ -566,10 +564,9 @@ IT Support,USA,Madison,770 Orange Street,default,Group 264
 IT Support,USA,Malvern,716 North Avenue,default,Group 222
 IT Support,USA,Malvern,546 Route 2,default,Group 222
 IT Support,USA,Reston,71 Hill Street,Branch 3,Group 239
-IT Support,USA,Rockville,428 Sycamore Lane,Branch 4,Group 242
-IT Support,USA,Rockville,428 Sycamore Lane,default,Group 6
-IT Support,USA,Misc,282 Route 7,default,Group 208
-IT Support,USA,Misc,797 Fairview Road,default,Group 208
+IT Support,USA,Rockville,428 Sycamore Lane,Branch 1,Group 6
+IT Support,USA,Misc,282 Maple Street,default,Group 71
+IT Support,USA,Misc,159 Country Lane,default,Group 71
 IT Support,USA,Westborough,309 Monroe Drive,default,Group 260
 IT Support,USA,Acambis,default,default,Group 210
 IT Support,USA,Allston,default,default,Group 198
@@ -607,17 +604,16 @@ IT Support,USA,Scottsdale,default,default,Group 248
 IT Support,USA,Scranton,default,default,Group 250
 IT Support,USA,Swiftwater,default,default,Group 252
 IT Support,USA,Taylor,default,default,Group 254
-IT Support,USA,Misc,default,default,Group 71
 IT Support,USA,Waltham,default,default,Group 256
 IT Support,USA,Washington,default,default,Group 258
 IT Support,USA,Worthington,default,default,Group 262
 IT Support,Argentina,default,default,default,Group 44
 IT Support,Austria,default,default,default,Group 1
 IT Support,Belgium,default,default,default,Group 48
-IT Support,Brazil,default,default,default,Group 57
+IT Support,Brazil,default,default,default,Group 65
 IT Support,Canada,default,default,default,Group 72
 IT Support,Colombia,default,default,default,Group 78
-IT Support,Czech Republic,default,default,default,Group 89
+IT Support,Czech Republic,default,default,default,Group 86
 IT Support,Dominican Republic,default,default,default,Group 2
 IT Support,France,default,default,default,Group 117
 IT Support,Germany,default,default,default,Group 93
@@ -629,7 +625,7 @@ IT Support,Italy,default,default,default,Group 165
 IT Support,Japan,default,default,default,Group 170
 IT Support,Papua New Guinea,default,default,default,Group 117
 IT Support,Luxembourg,default,default,default,Group 165
-IT Support,Mexico,default,default,default,Group 176
+IT Support,Mexico,default,default,default,Group 174
 IT Support,Panama,default,default,default,Group 184
 IT Support,Portugal,default,default,default,Group 186
 IT Support,Singapore,default,default,default,Group 31
@@ -653,7 +649,7 @@ Resource Management,France,Lyon,309 1st Avenue,default,Group 108
 Resource Management,France,Lyon,73 Hamilton Road,default,Group 108
 Resource Management,Germany,Biberach An Der Riss,default,default,Group 108
 Resource Management,Germany,Ingelheim,default,default,Group 108
-Resource Management,Trinidad,Port of Spain,default,default,Group 108
+Resource Management,Trinidad,Misc,default,default,Group 266
 Resource Management,Guatemala,Guatemala City,214 Hilltop Road,Branch 6,Group 106
 Resource Management,Hungary,Csanyikvolgy,default,default,Group 160
 Resource Management,Hungary,Veresegyhaz,default,default,Group 161
@@ -670,11 +666,12 @@ Resource Management,Netherlands,Lelystad,default,default,Group 178
 Resource Management,Netherlands,Naarden,default,default,Group 6
 Resource Management,Netherlands,Velserbroek,default,default,Group 178
 Resource Management,Spain,Barcelona,584 Spruce Avenue,default,Group 105
-Resource Management,Spain,Barcelona,536 Hawthorne Avenue,default,Group 98
-Resource Management,Spain,Barcelona,709 Forest Drive,default,Group 98
-Resource Management,Spain,Barcelona,758 Cleveland Street,default,Group 98
+Resource Management,Spain,Barcelona,462 Pheasant Run,default,Group 102
+Resource Management,Spain,Barcelona,579 Manor Drive,default,Group 102
+Resource Management,Spain,Barcelona,341 Williams Street,default,Group 102
 Resource Management,Spain,Madrid,16 Route 9,Branch 8,Group 98
 Resource Management,Spain,Madrid,16 Route 9,default,Group 105
+Resource Management,Spain,Barcelona,default,default,Group 98
 Resource Management,Spain,Leganes,default,default,Group 98
 Resource Management,Switzerland,Vernier,728 Hillcrest Drive,default,Group 107
 Resource Management,UK,Haverhill,default,default,Group 6
@@ -701,7 +698,6 @@ Resource Management,Ecuador,default,default,default,Group 266
 Resource Management,France,default,default,default,Group 107
 Resource Management,Germany,default,default,default,Group 107
 Resource Management,Greece,default,default,default,Group 107
-Resource Management,Trinidad,default,default,default,Group 266
 Resource Management,Guatemala,default,default,default,Group 7
 Resource Management,Nicaragua,default,default,default,Group 266
 Resource Management,Hong Kong,default,default,default,Misc Group

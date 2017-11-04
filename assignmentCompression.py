@@ -2,7 +2,12 @@ import pandas as pd
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
+
 def condenseArray(df, position):
+    """Finds the most frequent assignment group
+    sets the value at position to \"default\"at all
+    rules where the assignment is the most frequent value
+    and removes all the duplicates"""
     # gets the most frequent value
     mostFreq = df.iloc[:, -1].value_counts().idxmax()
 
@@ -21,19 +26,23 @@ def condenseArray(df, position):
 
 
 def combineDataFrames(df1, df2):
+    """Combines the two dataframes, returns none if neither dataframe
+    has content"""
     if df1 is None and df2.empty:
         return df1
     if df1 is None:
         return df2
-    newCombinedDF = pd.concat([df1,df2], ignore_index=True)
+    newCombinedDF = pd.concat([df1, df2], ignore_index=True)
     return newCombinedDF
 
 
 def recursiveCondense(df, position=0):
+    """Main algorithm that splits the data or condenses the array
+     if it hits the end or has only one unique group in the data set."""
     condensed = None
     unique = None
 
-    if(df.iloc[:,-1].unique().shape[0] == 1):
+    if(df.iloc[:, -1].unique().shape[0] == 1):
         # condenses array if there is only 1 unique assignment group
         return condenseArray(df, position)
 
@@ -61,6 +70,8 @@ def recursiveCondense(df, position=0):
         return [condensed, unique]
 
 
-def compress(df, position):
+def compress(df, position=0):
+    """Main compression algorithm. Calls recursiveCondense
+    and ten combines and returns the two data sets returned"""
     [condensedDF, uniqueDF] = recursiveCondense(df, position)
     return combineDataFrames(condensedDF, uniqueDF)
