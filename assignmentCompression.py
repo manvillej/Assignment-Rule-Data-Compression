@@ -4,8 +4,8 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 
 def condenseArray(df, position):
-    """Finds the most frequent assignment group
-    sets the value at position to \"default\"at all
+    """Finds the most frequent assignment group.
+    Sets the value at position to \"default\"at all
     rules where the assignment is the most frequent value
     and removes all the duplicates"""
     # gets the most frequent value
