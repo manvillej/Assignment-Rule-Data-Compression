@@ -32,5 +32,5 @@ This file contains a test that that compares the results of the new table with t
  - The compression algorithm takes ~9.16 seconds to compress the original 7785 records on a windows machine with 8gb ram and 3GHz processor
  - The tester.py results shows the new table is 100% accurate
  - The new table size can vary with the data compression. The lowest count was 735 records and the highest was 747 records
- - So, the new table both perfectly represents the old table, but it is also ~90% smaller
+ - So, the new table both perfectly represents the old table, but is also ~90% smaller
 
