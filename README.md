@@ -29,4 +29,5 @@ This file contains a variety of functions that represent a recursive algorithm t
 This file contains a test that that compares the results of the new table with the assignments of the original table. 
 
 ## Results:
-The tester.py results shows the new table is 100% accurate. The original table contains 7785 records. The new table size can vary as there are ties in the most frequent value in some parts of the data set. The lowest count was 735 records and the highest was 747 records. So the new table both perfectly represents the old table, but it is also ~90% smaller. 
+The compression algorithm takes ~9.16 seconds to compress the original 7785 records with 8gb ram and 3GHz processor Windows machine. The tester.py results shows the new table is 100% accurate. The new table size can vary as there are ties in the most frequent value in some parts of the data set. The lowest count was 735 records and the highest was 747 records. So, the new table both perfectly represents the old table, but it is also ~90% smaller. 
+
